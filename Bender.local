@@ -1,0 +1,17 @@
+overrides:
+  riscv-dbg: { path: "working_dir/riscv-dbg" } # Temporary override by Bender using `bender clone` command
+  register_interface: { path: "working_dir/register_interface" } # Temporary override by Bender using `bender clone` command
+  axi_slice: { path: "working_dir/axi_slice" } # Temporary override by Bender using `bender clone` command
+  udma_core: { path: "working_dir/udma_core" } # Temporary override by Bender using `bender clone` command
+  apb2per: { path: "working_dir/apb2per" } # Temporary override by Bender using `bender clone` command
+  apb_interrupt_cntrl: { path: "working_dir/apb_interrupt_cntrl" } # Temporary override by Bender using `bender clone` command
+  l2_tcdm_hybrid_interco: { path: "working_dir/l2_tcdm_hybrid_interco" } # Temporary override by Bender using `bender clone` command
+  cv32e40p: { path: "working_dir/cv32e40p" } # Temporary override by Bender using `bender clone` command
+  hwpe-mac-engine: { path: "working_dir/hwpe-mac-engine" } # Temporary override by Bender using `bender clone` command
+  hwpe-stream: { path: "working_dir/hwpe-stream" } # Temporary override by Bender using `bender clone` command
+  hwpe-ctrl: { path: "working_dir/hwpe-ctrl" } # Temporary override by Bender using `bender clone` command
+  common_verification: { path: "working_dir/common_verification" } # Temporary override by Bender using `bender clone` command
+  common_cells: { path: "working_dir/common_cells" } # Temporary override by Bender using `bender clone` command
+  axi: { path: "working_dir/axi" } # Temporary override by Bender using `bender clone` command
+  apb: { path: "working_dir/apb" } # Temporary override by Bender using `bender clone` command
+  pulp_soc: { path: "working_dir/pulp_soc" } # Temporary override by Bender using `bender clone` command
