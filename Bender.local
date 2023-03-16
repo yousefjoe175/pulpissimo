@@ -1,0 +1,18 @@
+overrides:
+  apb_node: { path: "working_dir/apb_node" } # Temporary override by Bender using `bender clone` command
+  udma_uart: { path: "working_dir/udma_uart" } # Temporary override by Bender using `bender clone` command
+  udma_i2c: { path: "working_dir/udma_i2c" } # Temporary override by Bender using `bender clone` command
+  pulp_soc: { path: "working_dir/pulp_soc" } # Temporary override by Bender using `bender clone` command
+  apb2per: { path: "working_dir/apb2per" } # Temporary override by Bender using `bender clone` command
+  dummy_vip: { path: "working_dir/dummy_vip" } # Temporary override by Bender using `bender clone` command
+  common_cells: { path: "working_dir/common_cells" } # Temporary override by Bender using `bender clone` command
+  register_interface: { path: "working_dir/register_interface" } # Temporary override by Bender using `bender clone` command
+  riscv-dbg: { path: "working_dir/riscv-dbg" } # Temporary override by Bender using `bender clone` command
+  hwpe-mac-engine: { path: "working_dir/hwpe-mac-engine" } # Temporary override by Bender using `bender clone` command
+  udma_core: { path: "working_dir/udma_core" } # Temporary override by Bender using `bender clone` command
+  hwpe-stream: { path: "working_dir/hwpe-stream" } # Temporary override by Bender using `bender clone` command
+  hwpe-ctrl: { path: "working_dir/hwpe-ctrl" } # Temporary override by Bender using `bender clone` command
+  cv32e40p: { path: "working_dir/cv32e40p" } # Temporary override by Bender using `bender clone` command
+  apb: { path: "working_dir/apb" } # Temporary override by Bender using `bender clone` command
+  axi: { path: "working_dir/axi" } # Temporary override by Bender using `bender clone` command
+  pulp_soc: { path: "working_dir/pulp_soc" } # Temporary override by Bender using `bender clone` command
