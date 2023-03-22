@@ -29,7 +29,7 @@
 
 // To use The L2 Multibank Feature, please decomment this define
 `define USE_L2_MULTIBANK
-`define NB_L2_CHANNELS 4
+`define NB_L2_CHANNELS 8  /* memlayout exercise (interleaved) */ 
 
 // JTAG
 // Part Number

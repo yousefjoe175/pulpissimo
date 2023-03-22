@@ -20,7 +20,8 @@
 //-----------------------------------------------------------------------------
 
 `define SOC_MEM_MAP_TCDM_START_ADDR          32'h1C01_0000
-`define SOC_MEM_MAP_TCDM_END_ADDR            32'h1C09_0000
+//`define SOC_MEM_MAP_TCDM_END_ADDR            32'h1C09_0000
+`define SOC_MEM_MAP_TCDM_END_ADDR            32'h1C21_0000  /* memlayout exercise (interleaved) */
 
 `define SOC_MEM_MAP_PRIVATE_BANK0_START_ADDR 32'h1C00_0000
 `define SOC_MEM_MAP_PRIVATE_BANK0_END_ADDR   32'h1C00_8000
@@ -36,5 +37,9 @@
 
 `define SOC_MEM_MAP_PERIPHERALS_START_ADDR   32'h1A10_0000
 `define SOC_MEM_MAP_PERIPHERALS_END_ADDR     32'h1A40_0000
+
+/* define new memory region for exercise */ 
+`define SOC_MEM_MAP_EXERCISE_BANK_START_ADDR 32'h1b00_0000
+`define SOC_MEM_MAP_EXERCISE_BANK_END_ADDR   32'h1b00_8000
 
 
