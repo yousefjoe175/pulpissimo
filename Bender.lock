@@ -6,22 +6,22 @@ packages:
       Git: https://github.com/pulp-platform/adv_dbg_if.git
     dependencies: []
   apb:
-    revision: null
-    version: null
+    revision: ~
+    version: ~
     source:
-      Path: working_dir/apb
+      Path: /home/youssef/riscv/pulpissimo/working_dir/apb
     dependencies: []
   apb2per:
-    revision: null
-    version: null
+    revision: ~
+    version: ~
     source:
-      Path: working_dir/apb2per
+      Path: /home/youssef/riscv/pulpissimo/working_dir/apb2per
     dependencies: []
   apb_adv_timer:
-    revision: c8faec1e1755386d0e0f31a55ebd80612a3dcea9
-    version: 1.0.4
+    revision: ~
+    version: ~
     source:
-      Git: https://github.com/pulp-platform/apb_adv_timer.git
+      Path: /home/youssef/riscv/pulpissimo/working_dir/apb_adv_timer
     dependencies:
     - tech_cells_generic
   apb_fll_if:
@@ -38,32 +38,32 @@ packages:
       Git: https://github.com/pulp-platform/apb_gpio.git
     dependencies: []
   apb_interrupt_cntrl:
-    revision: 86d650f590a385cc0d5148125528527377f0527c
-    version: 0.1.2
+    revision: ~
+    version: ~
     source:
-      Git: https://github.com/pulp-platform/apb_interrupt_cntrl.git
+      Path: /home/youssef/riscv/pulpissimo/working_dir/apb_interrupt_cntrl
     dependencies:
     - common_cells
   apb_node:
-    revision: null
-    version: null
+    revision: ~
+    version: ~
     source:
-      Path: working_dir/apb_node
+      Path: /home/youssef/riscv/pulpissimo/working_dir/apb_node
     dependencies:
     - apb
   axi:
-    revision: null
-    version: null
+    revision: ~
+    version: ~
     source:
-      Path: working_dir/axi
+      Path: /home/youssef/riscv/pulpissimo/working_dir/axi
     dependencies:
     - common_cells
     - common_verification
   axi_slice:
-    revision: a4f72bc21ac4d7da631e8309d9f8d0c34b735c23
-    version: 1.1.4
+    revision: ~
+    version: ~
     source:
-      Git: https://github.com/pulp-platform/axi_slice.git
+      Path: /home/youssef/riscv/pulpissimo/working_dir/axi_slice
     dependencies:
     - common_cells
   cluster_interconnect:
@@ -74,24 +74,24 @@ packages:
     dependencies:
     - common_cells
   common_cells:
-    revision: null
-    version: null
+    revision: ~
+    version: ~
     source:
-      Path: working_dir/common_cells
+      Path: /home/youssef/riscv/pulpissimo/working_dir/common_cells
     dependencies:
     - common_verification
     - tech_cells_generic
   common_verification:
-    revision: 9c07fa860593b2caabd9b5681740c25fac04b878
-    version: 0.2.3
+    revision: ~
+    version: ~
     source:
-      Git: https://github.com/pulp-platform/common_verification.git
+      Path: /home/youssef/riscv/pulpissimo/working_dir/common_verification
     dependencies: []
   cv32e40p:
-    revision: null
-    version: null
+    revision: ~
+    version: ~
     source:
-      Path: working_dir/cv32e40p
+      Path: /home/youssef/riscv/pulpissimo/working_dir/cv32e40p
     dependencies:
     - common_cells
     - fpnew
@@ -120,29 +120,30 @@ packages:
   generic_fll:
     revision: 1c92dc73a940392182fd4cb7b86f35649b349595
     version: 0.2.0
+    version: 0.2.0
     source:
       Git: https://github.com/pulp-platform/generic_FLL.git
     dependencies: []
   hwpe-ctrl:
-    revision: null
-    version: null
+    revision: ~
+    version: ~
     source:
-      Path: working_dir/hwpe-ctrl
+      Path: /home/youssef/riscv/pulpissimo/working_dir/hwpe-ctrl
     dependencies:
     - tech_cells_generic
   hwpe-mac-engine:
-    revision: null
-    version: null
+    revision: ~
+    version: ~
     source:
-      Path: working_dir/hwpe-mac-engine
+      Path: /home/youssef/riscv/pulpissimo/working_dir/hwpe-mac-engine
     dependencies:
     - hwpe-ctrl
     - hwpe-stream
   hwpe-stream:
-    revision: null
-    version: null
+    revision: ~
+    version: ~
     source:
-      Path: working_dir/hwpe-stream
+      Path: /home/youssef/riscv/pulpissimo/working_dir/hwpe-stream
     dependencies:
     - tech_cells_generic
   ibex:
@@ -159,16 +160,16 @@ packages:
       Git: https://github.com/pulp-platform/jtag_pulp.git
     dependencies: []
   l2_tcdm_hybrid_interco:
-    revision: fa55e72859dcfb117a2788a77352193bef94ff2b
-    version: 1.0.0
+    revision: ~
+    version: ~
     source:
-      Git: https://github.com/pulp-platform/L2_tcdm_hybrid_interco.git
+      Path: /home/youssef/riscv/pulpissimo/working_dir/l2_tcdm_hybrid_interco
     dependencies: []
   pulp_soc:
-    revision: null
-    version: null
+    revision: ~
+    version: ~
     source:
-      Path: working_dir/pulp_soc
+      Path: /home/youssef/riscv/pulpissimo/working_dir/pulp_soc
     dependencies:
     - adv_dbg_if
     - apb
@@ -206,18 +207,18 @@ packages:
     - udma_sdio
     - udma_uart
   register_interface:
-    revision: null
-    version: null
+    revision: ~
+    version: ~
     source:
-      Path: working_dir/register_interface
+      Path: /home/youssef/riscv/pulpissimo/working_dir/register_interface
     dependencies:
     - axi
     - common_cells
   riscv-dbg:
-    revision: null
-    version: null
+    revision: ~
+    version: ~
     source:
-      Path: working_dir/riscv-dbg
+      Path: /home/youssef/riscv/pulpissimo/working_dir/riscv-dbg
     dependencies:
     - common_cells
     - tech_cells_generic
@@ -234,17 +235,17 @@ packages:
       Git: https://github.com/pulp-platform/tbtools.git
     dependencies: []
   tech_cells_generic:
-    revision: a9cae21902e75b1434328ecf36f85327ba5717de
-    version: 0.2.11
+    revision: ~
+    version: ~
     source:
-      Git: https://github.com/pulp-platform/tech_cells_generic.git
+      Path: /home/youssef/riscv/pulpissimo/working_dir/tech_cells_generic
     dependencies:
     - common_verification
   timer_unit:
-    revision: 3f4ee3e5b3875a473242de5d0c3ebb5a0fe4b8db
-    version: 1.0.2
+    revision: ~
+    version: ~
     source:
-      Git: https://github.com/pulp-platform/timer_unit.git
+      Path: /home/youssef/riscv/pulpissimo/working_dir/timer_unit
     dependencies: []
   udma_camera:
     revision: cfcd80416ef18f8e8139188b8dfa52a8a7f6f7c8
@@ -255,10 +256,10 @@ packages:
     - tech_cells_generic
     - udma_core
   udma_core:
-    revision: null
-    version: null
+    revision: ~
+    version: ~
     source:
-      Path: working_dir/udma_core
+      Path: /home/youssef/riscv/pulpissimo/working_dir/udma_core
     dependencies:
     - common_cells
     - tech_cells_generic
